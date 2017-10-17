@@ -1,6 +1,6 @@
 $('#marcas').click(function () {
   $.ajax({
-      url: "http://localhost:81/proyectos/pruebaTPE/marcas",
+      url: "http://localhost/proyectos/pruebaTPE/marcas",
       success: function(result){
         for (var i = 0; i < 100000000; i++) {
         }
@@ -12,7 +12,7 @@ $('#marcas').click(function () {
 $('.celulares').click(function () {
   var id = $(this).data("value");
   $.ajax({
-      url: "http://localhost:81/proyectos/pruebaTPE/celulares/"+id,
+      url: "http://localhost/proyectos/pruebaTPE/celulares/"+id,
       success: function(result){
         for (var i = 0; i < 100000000; i++) {
         }

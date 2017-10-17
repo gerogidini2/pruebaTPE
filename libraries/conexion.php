@@ -1,7 +1,7 @@
 <?php
   function connect(){
     return new PDO('mysql:host=localhost;'
-    .'dbname=celulares;charset=utf8'
+    .'dbname=db_celulares;charset=utf8'
     , 'root', '');
   }
  ?>
